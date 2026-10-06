@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    padding: 40px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+h1 {
+    color: #333;   
+    margin-bottom: 25px;
+}
+
+.user-card {
+    background: blueviolet;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.user-card h2 {
+    margin-bottom: 8px;
+    color: #fff;
+}
+
+.user-card p {
+    margin: 5px 0;
+    color: black;
+}
+
+.crt-btn{
+    background: rgb(35, 46, 64);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.form{
+    display: none;  
+}
